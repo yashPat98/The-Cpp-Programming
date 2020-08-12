@@ -26,6 +26,8 @@ int main(void)
     double         d;
     long double    ld;
 
+    string         name;
+
     //code
 
     //variable initialization
@@ -45,6 +47,7 @@ int main(void)
     d = {34.6534774};
     ld = {2.998877667};
 
+    name = {"Yash"};
 
     //displaying values
     cout << "\nBoolean :\n";
@@ -67,6 +70,8 @@ int main(void)
     cout << "double d           = " << d << endl;
     cout << "long double ld     = " << ld << endl; 
 
+    cout << "\nString :\n";
+    cout << "string name        = " << name << endl;
 
     return (0);
 }

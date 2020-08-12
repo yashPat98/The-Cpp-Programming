@@ -26,6 +26,8 @@ int main(void)
     double         d (34.6534774);
     long double    ld (2.998877667);
 
+    string         name ("Yash");
+
     //code
 
     //displaying values
@@ -49,6 +51,8 @@ int main(void)
     cout << "double d           = " << d << endl;
     cout << "long double ld     = " << ld << endl; 
 
+    cout << "\nString :\n";
+    cout << "string name        = " << name << endl;
 
     return (0);
 }
